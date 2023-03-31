@@ -30,6 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://baseten.github.io/react-three-2048/",
   "eslintConfig": {
     "extends": [
       "react-app",
