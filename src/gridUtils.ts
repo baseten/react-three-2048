@@ -17,7 +17,7 @@ export const makeEmptyCell = (): Cell => ({
   mergedBlock: null,
 });
 
-export const makeNewBlock = (value = 1): Block => ({
+export const makeNewBlock = (value = 2): Block => ({
   id: uuidv4(),
   value,
   isNew: true,

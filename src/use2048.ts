@@ -238,7 +238,7 @@ const usePhaseSystem = (state: State, dispatch: Dispatch<Action>) => {
         dispatch({
           type: 'ADD_NEW_BLOCK',
           position: arrayRandomItem(emptyCellPositions),
-          block: makeNewBlock(1),
+          block: makeNewBlock(2),
         });
       },
 
