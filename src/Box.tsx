@@ -311,7 +311,7 @@ const useUpdateAnimation = (
     return () => {
       ctx.kill();
     };
-  }, [phase, isMerged, value, x, y, onAnimationComplete, position]);
+  }, [phase, isMerged, value, x, y, onAnimationComplete, position, mesh, material]);
 };
 
 export default function Box({
