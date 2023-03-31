@@ -34,11 +34,11 @@ jobs:
           cache: "npm"
       - name: Install Dependencies
         run: npm ci
-      - name: Test  
-        run: npm run test
-      - name: Build  
+      - name: Lint and Test
+        run: npm run lint && npm run test
+      - name: Build
         run: npm run build
-      - name: Upload artifact
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: "public"

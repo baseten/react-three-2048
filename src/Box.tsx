@@ -117,7 +117,7 @@ const useUpdateValueTextureCoords = (
     uvAttr.needsUpdate = true;
 
     material.current.uniforms.fontColor.value.set(BOX_COLORS[value].color);
-  }, [texture, value]);
+  }, [geometry, material, texture, value]);
 };
 
 const useSpawnAnimation = (
